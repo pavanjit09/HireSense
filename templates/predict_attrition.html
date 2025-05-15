@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attrition Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Enter Employee Details</h2>
+    <form action="/predict_attrition" method="post">
+        Satisfaction Level: <input type="number" step="0.01" name="satisfaction_level"><br>
+        Last Evaluation: <input type="number" step="0.01" name="last_evaluation"><br>
+        Number of Projects: <input type="number" name="number_project"><br>
+        Average Monthly Hours: <input type="number" name="average_montly_hours"><br>
+        Time Spent at Company: <input type="number" name="time_spend_company"><br>
+        Work Accident (0/1): <input type="number" name="work_accident"><br>
+        Promotion Last 5 Years (0/1): <input type="number" name="promotion_last_5years"><br>
+        Department: 
+        <select name="department">
+            <option>sales</option><option>technical</option><option>support</option>
+            <option>IT</option><option>RandD</option><option>product_mng</option>
+            <option>marketing</option><option>accounting</option><option>hr</option><option>management</option>
+        </select><br>
+        Salary: <select name="salary"><option>low</option><option>medium</option><option>high</option></select><br>
+        <input type="submit" value="Predict" class="btn">
+    </form>
+</body>
+</html>

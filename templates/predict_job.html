@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Placement Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Enter Student Details</h2>
+    <form action="/predict_job" method="post">
+        Gender: <select name="gender"><option>Male</option><option>Female</option></select><br>
+        SSC Percentage: <input type="number" step="0.01" name="ssc_p"><br>
+        HSC Percentage: <input type="number" step="0.01" name="hsc_p"><br>
+        HSC Stream: <select name="hsc_s"><option>Commerce</option><option>Science</option><option>Arts</option></select><br>
+        Degree Percentage: <input type="number" step="0.01" name="degree_p"><br>
+        Degree Type: <select name="degree_t"><option>Comm&Mgmt</option><option>Sci&Tech</option><option>Others</option></select><br>
+        Work Experience: <select name="workex"><option>Yes</option><option>No</option></select><br>
+        E-Test Score: <input type="number" step="0.01" name="etest_p"><br>
+        Specialisation: <select name="specialisation"><option>Mkt&HR</option><option>Mkt&Fin</option></select><br>
+        MBA Percentage: <input type="number" step="0.01" name="mba_p"><br>
+        <input type="submit" value="Predict" class="btn">
+    </form>
+</body>
+</html>

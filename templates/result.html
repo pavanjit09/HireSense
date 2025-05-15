@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction: {{ prediction }}</h2>
+
+    {% if shap_image %}
+        <h3>SHAP Summary Plot (Bar)</h3>
+        <img src="data:image/png;base64,{{ shap_image }}" alt="SHAP Summary">
+    {% endif %}
+
+    {% if shap_html %}
+        <h3>SHAP Force Plot</h3>
+        {{ shap_html | safe }}
+    {% endif %}
+</body>
+</html>
+
+
