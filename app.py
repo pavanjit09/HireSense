@@ -63,7 +63,7 @@ def predict_job():
     explainer = shap.TreeExplainer(catboost_model)
     shap_values = explainer.shap_values(df)
 
-    shap.initjs()
+    #shap.initjs()
     force_html = shap.force_plot(explainer.expected_value, shap_values[0], df.iloc[0], show=False)
     shap_html = f"<head>{shap.getjs()}</head><body>{force_html.html()}</body>"
 
