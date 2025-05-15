@@ -15,7 +15,3 @@
 -  **SHAP Explainability** for model interpretability.
 -  Fully functional **Flask Web Application** with HTML templates.
 -  **Deploy-ready on Render or GitHub Pages + Flask backend.**
-
-## Demo
-
-> 🔗 **Live Demo**: [https://hiresense.onrender.com](#) 
