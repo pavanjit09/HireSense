@@ -15,3 +15,12 @@
 -  **SHAP Explainability** for model interpretability.
 -  Fully functional **Flask Web Application** with HTML templates.
 -  **Deploy-ready on Render or GitHub Pages + Flask backend.**
+
+## Screenshots
+
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/dc57cb1c-585a-4c14-8528-044214b4b154" />
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/6a88ccd8-b12b-45a0-b1b2-c131cc254d2b" />
+<img width="942" alt="3" src="https://github.com/user-attachments/assets/d6e32426-2c5b-4752-b9af-d019a5692f81" />
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/8bae34ed-9876-466c-8396-d4a2ec7c1a66" />
+<img width="512" alt="5" src="https://github.com/user-attachments/assets/87137c1c-3bd5-49db-95b7-b4c9429575bf" />
+
